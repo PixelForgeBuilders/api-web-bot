@@ -15,6 +15,6 @@ describe('Create User', () => {
         const user = await sut.register({
             name: 'any_name'
         })
-        expect(user.id).toEqual(expect.any(String))
+        expect(user.id).toEqual(expect.any(NaN))
     })
 })

@@ -6,6 +6,7 @@
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
+    "test:unit": "vitest --dir src/use-cases",
     "build": "tsup src --out-dir build",
     "start:dev": "tsx watch src/server.ts",
     "start": "node build/server.ts"
